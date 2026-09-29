@@ -5,7 +5,7 @@ from study_plan import make_study_plan
 from strategy import show_strategy
 
 
-print("===== SMART STUDY PLANNER =====")
+print(" SMART STUDY PLANNER ")
 
 name, n, study_hours = get_student_details()
 
@@ -20,7 +20,7 @@ for i in range(n):
     subjects.append([subject, difficulty, days, priority])
 
 
-print("\n===== SUBJECT ANALYSIS =====")
+print("\n SUBJECT ANALYSIS ")
 
 for subject in subjects:
     print(subject[0], "->", subject[3],
@@ -32,7 +32,7 @@ make_study_plan(subjects, study_hours)
 show_strategy(subjects)
 
 
-print("\n===== GENERAL TIPS =====")
+print("\n GENERAL TIPS ")
 
 print("Take short breaks between study sessions.")
 print("Keep your phone away during focused study.")
