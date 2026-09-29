@@ -1,6 +1,6 @@
 def make_study_plan(subjects, study_hours):
 
-    print("\n===== PERSONALIZED STUDY PLAN =====")
+    print("\n PERSONALIZED STUDY PLAN ")
 
     for subject in subjects:
 
