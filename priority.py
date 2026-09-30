@@ -1,18 +1,18 @@
-def get_priority(difficulty, days):
+def get_priority(dif, days):
 
     if days <= 3:
-        priority = "High"
+        pri = "High"
 
-    elif difficulty == "hard" and days <= 7:
-        priority = "High"
+    elif dif == "hard" and days <= 7:
+        pri = "High"
 
-    elif difficulty == "medium" and days <= 7:
-        priority = "High"
+    elif dif == "medium" and days <= 7:
+        pri = "High"
 
-    elif difficulty == "hard":
-        priority = "Medium"
+    elif dif == "hard":
+        pri = "Medium"
 
     else:
-        priority = "Low"
+        pri = "Low"
 
-    return priority
+    return pri
