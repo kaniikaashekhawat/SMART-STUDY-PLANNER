@@ -1,16 +1,16 @@
 def make_study_plan(subjects, study_hours):
 
-    print("\n PERSONALIZED STUDY PLAN ")
+    print("\n====== PERSONALIZED STUDY PLAN ======")
 
-    for subject in subjects:
+    for sub in subjects:
 
-        if subject[3] == "High":
-            minutes = study_hours * 60 // 2
+        if sub[3] == "High":
+            mins = study_hours * 60 // 2
 
-        elif subject[3] == "Medium":
-            minutes = study_hours * 60 // 3
+        elif sub[3] == "Medium":
+            mins = study_hours * 60 // 3
 
         else:
-            minutes = study_hours * 60 // 4
+            mins = study_hours * 60 // 4
 
-        print(subject[0], ":", minutes, "minutes")
+        print(sub[0], ":", mins, "minutes")
