@@ -1,6 +1,6 @@
 def show_strategy(subjects):
 
-    print("\n STUDY STRATEGY ")
+    print("\n===== STUDY STRATEGY =====")
 
     for subject in subjects:
 
